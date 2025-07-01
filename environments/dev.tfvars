@@ -1,0 +1,14 @@
+environment               = "dev"
+ecs_task_cpu              = 256
+ecs_task_memory           = 512
+ecs_service_desired_count = 2
+vpc_cidr                  = "10.0.0.0/16"
+disable_alarms            = true
+alarm_cpu_threshold       = 80
+alarm_memory_threshold    = 80
+alarm_evaluation_periods  = 2
+alerts_group_email        = "sasmikechan@gmail.com"
+budget_notification_email = ["sasmikechan@gmail.com"]
+ssl_certificate_arn       = ""
+aws_monthly_budget_amount = "500"
+ecs_monthly_budget_amount = "250"

@@ -10,5 +10,8 @@ crash.log
 .terraform/
 
 # Ignore Terraform variable files 
-*.tfvars
 *.tfvars.json
+
+# Ignore Infracost directory
+.infracost/
+
